@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="bn" class="transition-colors duration-300">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="SahiGatget — বাংলাদেশে মোবাইল ফোন ও গ্যাজেট। ১০০% অরিজিনাল, সেরা দাম। দ্রুত লোডিং ও মোবাইল-ফার্স্ট ডিজাইন।" />
+  <meta name="keywords" content="SahiGatget, মোবাইল, গ্যাজেট, ফোন, Bangladesh" />
+  <meta name="robots" content="index, follow" />
+  <meta name="author" content="SahiGatget" />
+  <link rel="canonical" href="https://sahigatget.shop/" />
+
+  <title>SahiGatget — অরিজিনাল মোবাইল ও গ্যাজেট</title>
+
+  <!-- Favicon and Touch Icons -->
+  <link rel="icon" href="/images/favicon.ico" />
+  <link rel="apple-touch-icon" href="/images/apple-touch-icon.png" />
+
+  <!-- Font Preconnect and Preload -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@400;700&display=swap" />
+  <link rel="preload" href="/images/hero.webp" as="image" />
+
+  <!-- Open Graph and Twitter Cards -->
+  <meta property="og:site_name" content="SahiGatget" />
+  <meta property="og:title" content="SahiGatget — অরিজিনাল মোবাইল ও গ্যাজেট" />
+  <meta property="og:description" content="১০০% জেনুইন মোবাইল ফোন ও গ্যাজেট — সেরা দামে।" />
+  <meta property="og:url" content="https://sahigatget.shop/" />
+  <meta property="og:image" content="https://sahigatget.shop/images/og-image.webp" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@SahiGatget" />
+  <meta name="twitter:image" content="https://sahigatget.shop/images/og-image.webp" />
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = { darkMode: 'class' };
+  </script>
+
+  <style>
+    :root {
+      --brand: #0ea5e9;
+      --brand-dark: #facc15;
+      --transition: all 0.3s ease;
+    }
+    body {
+      font-family: 'Noto Sans Bengali', sans-serif;
+      transition: var(--transition);
+    }
+    .hero-gradient {
+      background: linear-gradient(135deg, rgba(14, 165, 233, 0.06), rgba(250, 204, 21, 0.04));
+    }
+    .card-shadow {
+      box-shadow: 0 6px 18px rgba(2, 6, 23, 0.08);
+    }
+    @media (prefers-reduced-motion: reduce) {
+      *, body {
+        animation: none !important;
+        transition: none !important;
+      }
+    }
+  </style>
+</head>
+
+<body class="bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100 font-sans scroll-smooth">
+  <!-- Header -->
+  <header id="header" class="sticky top-0 z-50 bg-white/90 dark:bg-gray-800/90 backdrop-blur-sm border-b border-gray-100 dark:border-gray-700">
+    <nav class="container mx-auto flex items-center justify-between p-4">
+      <a href="#home" class="flex items-center gap-3" aria-label="SahiGatget হোম">
+        <img src="/images/logo.png" alt="SahiGatget লোগো" width="44" height="44" class="rounded-md" loading="lazy" decoding="async" />
+        <span class="text-2xl font-bold" style="color: var(--brand);">SahiGatget</span>
+      </a>
+
+      <ul class="hidden md:flex items-center gap-6 text-sm font-medium">
+        <li><a href="#home" class="hover:underline" aria-current="page">হোম</a></li>
+        <li><a href="#products" class="hover:underline">প্রোডাক্ট</a></li>
+        <li><a href="/contact" class="hover:underline">যোগাযোগ</a></li>
+        <li><a href="/privacy-policy" class="hover:underline">প্রাইভেসি</a></li>
+      </ul>
+
+      <div class="flex items-center gap-3">
+        <button id="darkToggle" type="button" aria-label="ডার্ক/লাইট টগল" class="p-2 rounded focus:outline-none focus:ring-2 focus:ring-[var(--brand)]" title="ডার্ক/লাইট">
+          <span id="darkIcon" aria-hidden="true">🌙</span>
+        </button>
+        <button id="menuBtn" type="button" class="md:hidden p-2 text-2xl" aria-label="মোবাইল মেনু টগল">☰</button>
+      </div>
+    </nav>
+
+    <div id="mobileMenu" class="hidden md:hidden bg-white dark:bg-gray-800 p-4 border-t border-gray-100 dark:border-gray-700">
+      <ul class="flex flex-col gap-3 text-center">
+        <li><a href="#home" class="hover:underline">হোম</a></li>
+        <li><a href="#products" class="hover:underline">প্রোডাক্ট</a></li>
+        <li><a href="/contact" class="hover:underline">যোগাযোগ</a></li>
+        <li><a href="/privacy-policy" class="hover:underline">প্রাইভেসি</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <main>
+    <section id="home" class="min-h-[72vh] flex items-center hero-gradient">
+      <div class="container mx-auto px-4 py-12 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+        <div>
+          <h1 class="text-3xl md:text-4xl lg:text-5xl font-extrabold mb-4">
+            সত্যিই ভালো ফোন — <span style="color: var(--brand);">SahiGatget</span>
+          </h1>
+          <p class="text-gray-600 dark:text-gray-300 mb-6 max-w-xl">
+            ১০০% অরিজিনাল মোবাইল ও গ্যাজেট — রিয়েল ওয়ারেন্টি, ফ্রি ডেলিভারি (ঢাকা) এবং ক্যাশ অন ডেলিভারি অপশন। মোবাইল-ফার্স্ট ও দ্রুত লোডিং ডিজাইন।
+          </p>
+          <div class="flex flex-wrap gap-3">
+            <a href="#products" class="inline-block px-6 py-3 rounded-full shadow hover:scale-[1.02] transition bg-[var(--brand)] text-white">প্রোডাক্ট দেখুন</a>
+            <a href="/contact" class="inline-block px-6 py-3 rounded-full border border-gray-200 dark:border-gray-700 hover:bg-gray-100 dark:hover:bg-gray-700 transition">যোগাযোগ</a>
+          </div>
+        </div>
+
+        <div class="flex justify-center items-center">
+          <picture>
+            <source srcset="/images/hero.webp" type="image/webp" />
+            <img src="/images/hero.jpg" alt="SahiGatget হিরো ছবি" class="w-full max-w-sm sm:max-w-md rounded-lg shadow-lg" loading="lazy" decoding="async" width="600" height="400" />
+          </picture>
+        </div>
+      </div>
+    </section>
+
+    <!-- Products -->
+    <section id="products" class="py-12">
+      <div class="container mx-auto px-4">
+        <h2 class="text-2xl sm:text-3xl font-bold text-center mb-8">আমাদের প্রোডাক্ট</h2>
+
+        <!-- Search Bar -->
+        <div class="flex justify-center mb-8">
+          <div class="relative w-full max-w-md">
+            <input id="searchInput" type="text" placeholder="প্রোডাক্ট খুঁজুন..." class="w-full p-3 rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 focus:outline-none focus:ring-2 focus:ring-[var(--brand)]" aria-label="প্রোডাক্ট অনুসন্ধান" />
+            <button id="clearSearch" type="button" class="absolute right-2 top-1/2 -translate-y-1/2 text-gray-500 dark:text-gray-400 hover:text-[var(--brand)]" aria-label="অনুসন্ধান মুছুন">
+              ✕
+            </button>
+          </div>
+        </div>
+
+        <!-- Products Grid -->
+        <div id="productsGrid" class="grid gap-8 grid-cols-1 md:grid-cols-2">
+          <article class="product bg-white dark:bg-gray-800 rounded-2xl shadow-lg overflow-hidden p-6 flex flex-col items-center text-center hover:-translate-y-1 transition-transform card-shadow" data-name="Nokia 5310">
+            <img src="/images/nokia-5310.webp" alt="Nokia 5310 ফোন" class="w-56 h-56 object-contain mb-4" loading="lazy" decoding="async" />
+            <h3 class="text-xl font-semibold mb-2 text-gray-900 dark:text-gray-100">Nokia 5310</h3>
+            <p class="text-gray-600 dark:text-gray-300 mb-2">স্টাইলিশ ও ক্লাসিক মিউজিক ফোন</p>
+            <div class="text-lg font-bold text-[var(--brand)] dark:text-[var(--brand-dark)] mb-4">৳ ৩,৫০০</div>
+            <a href="/products/nokia-5310" class="px-6 py-2 rounded-lg bg-[var(--brand)] hover:bg-sky-700 text-white transition">বিস্তারিত</a>
+          </article>
+
+          <article class="product bg-white dark:bg-gray-800 rounded-2xl shadow-lg overflow-hidden p-6 flex flex-col items-center text-center hover:-translate-y-1 transition-transform card-shadow" data-name="Nokia 3210">
+            <img src="/images/nokia-3210.webp" alt="Nokia 3210 ফোন" class="w-56 h-56 object-contain mb-4" loading="lazy" decoding="async" />
+            <h3 class="text-xl font-semibold mb-2 text-gray-900 dark:text-gray-100">Nokia 3210</h3>
+            <p class="text-gray-600 dark:text-gray-300 mb-2">ক্লাসিক ও রিলায়েবল ফোন</p>
+            <div class="text-lg font-bold text-[var(--brand)] dark:text-[var(--brand-dark)] mb-4">৳ ৩,০০০</div>
+            <a href="/products/nokia-3210" class="px-6 py-2 rounded-lg bg-[var(--brand)] hover:bg-sky-700 text-white transition">বিস্তারিত</a>
+          </article>
+
+          <article class="product bg-white dark:bg-gray-800 rounded-2xl shadow-lg overflow-hidden p-6 flex flex-col items-center text-center hover:-translate-y-1 transition-transform card-shadow" data-name="Nokia 3310">
+            <img src="/images/nokia-3310.webp" alt="Nokia 3310 ফোন" class="w-56 h-56 object-contain mb-4" loading="lazy" decoding="async" />
+            <h3 class="text-xl font-semibold mb-2 text-gray-900 dark:text-gray-100">Nokia 3310</h3>
+            <p class="text-gray-600 dark:text-gray-300 mb-2">ক্লাসিক ও রিলায়েবল ফোন</p>
+            <div class="text-lg font-bold text-[var(--brand)] dark:text-[var(--brand-dark)] mb-4">৳ ৪,০০০</div>
+            <a href="/products/nokia-3310" class="px-6 py-2 rounded-lg bg-[var(--brand)] hover:bg-sky-700 text-white transition">বিস্তারিত</a>
+          </article>
+
+          <article class="product bg-white dark:bg-gray-800 rounded-2xl shadow-lg overflow-hidden p-6 flex flex-col items-center text-center hover:-translate-y-1 transition-transform card-shadow" data-name="Samsung Guru Music 2">
+            <img src="/images/samsung-removebg.webp" alt="Samsung Guru Music 2 ফোন" class="w-56 h-56 object-contain mb-4" loading="lazy" decoding="async" />
+            <h3 class="text-xl font-semibold mb-2 text-gray-900 dark:text-gray-100">Samsung Guru Music 2</h3>
+            <p class="text-gray-600 dark:text-gray-300 mb-2">সহজ ব্যবহার, নিখুঁত সাউন্ড</p>
+            <div class="text-lg font-bold text-[var(--brand)] dark:text-[var(--brand-dark)] mb-4">৳ ১,৮৯৯</div>
+            <a href="/products/samsung-guru-music-2" class="px-6 py-2 rounded-lg bg-[var(--brand)] hover:bg-sky-700 text-white transition">বিস্তারিত</a>
+          </article>
+        </div>
+
+        <p id="noResult" class="hidden text-center text-red-500 mt-6">কোনো প্রোডাক্ট পাওয়া যায়নি।</p>
+      </div>
+    </section>
+
+    <!-- Trust Section -->
+    <section class="bg-blue-50 dark:bg-gray-800 py-8 border-t border-gray-200 dark:border-gray-700">
+      <div class="container mx-auto px-4 grid gap-6 sm:grid-cols-2 md:grid-cols-4 text-center">
+        <div>
+          <span class="text-3xl mb-2" aria-hidden="true">🚚</span>
+          <h4 class="font-bold text-lg">ফ্রি ডেলিভারি</h4>
+          <p class="text-gray-600 dark:text-gray-300 text-sm">ঢাকা শহরের মধ্যে ফ্রি হোম ডেলিভারি</p>
+        </div>
+        <div>
+          <span class="text-3xl mb-2" aria-hidden="true">✅</span>
+          <h4 class="font-bold text-lg">১০০% অরিজিনাল</h4>
+          <p class="text-gray-600 dark:text-gray-300 text-sm">সব প্রোডাক্ট কোম্পানি অথরাইজড</p>
+        </div>
+        <div>
+          <span class="text-3xl mb-2" aria-hidden="true">💳</span>
+          <h4 class="font-bold text-lg">ক্যাশ অন ডেলিভারি</h4>
+          <p class="text-gray-600 dark:text-gray-300 text-sm">প্রোডাক্ট হাতে পেয়ে টাকা দিন</p>
+        </div>
+        <div>
+          <span class="text-3xl mb-2" aria-hidden="true">📞</span>
+          <h4 class="font-bold text-lg">২৪/৭ সাপোর্ট</h4>
+          <p class="text-gray-600 dark:text-gray-300 text-sm">যে কোন সময় যোগাযোগ করুন</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="py-8 bg-gradient-to-r from-blue-700 to-blue-900 dark:from-gray-800 dark:to-gray-900 text-white text-center mt-12">
+    <div class="container mx-auto px-4">
+      <a href="#header" class="text-2xl font-bold mb-2 inline-block">SahiGatget</a>
+      <p class="mb-4 text-blue-100 dark:text-gray-300">অরিজিনাল মোবাইল ফোন ও গ্যাজেট – আপনার বিশ্বস্ত অনলাইন শপ</p>
+      <ul class="flex flex-wrap justify-center gap-4 mb-4">
+        <li><a href="/privacy-policy" class="hover:text-[var(--brand-dark)]">প্রাইভেসি পলিসি</a></li>
+        <li><a href="/return-policy" class="hover:text-[var(--brand-dark)]">রিটার্ন নীতি</a></li>
+        <li><a href="/contact-us" class="hover:text-[var(--brand-dark)]">যোগাযোগ</a></li>
+      </ul>
+      <p class="text-xs text-blue-200 dark:text-gray-400">© <span id="currentYear"></span> sahigatget.shop | developed by <a href="https://sahitech.github.io/home/" target="_blank" rel="noopener noreferrer" class="underline">SahiTech</a></p>
+    </div>
+  </footer>
+
+  <script>
+    // Initialize page
+    document.addEventListener('DOMContentLoaded', () => {
+      // Set current year
+      document.getElementById('currentYear').textContent = new Date().getFullYear();
+
+      // Dark mode toggle
+      const html = document.documentElement;
+      const darkToggle = document.getElementById('darkToggle');
+      const darkIcon = document.getElementById('darkIcon');
+      const storedTheme = localStorage.getItem('sahigat_dark');
+      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+      if (storedTheme === 'dark' || (!storedTheme && prefersDark)) {
+        html.classList.add('dark');
+        darkIcon.textContent = '☀️';
+      } else {
+        darkIcon.textContent = '🌙';
+      }
+
+      darkToggle?.addEventListener('click', () => {
+        html.classList.toggle('dark');
+        const isDark = html.classList.contains('dark');
+        localStorage.setItem('sahigat_dark', isDark ? 'dark' : 'light');
+        darkIcon.textContent = isDark ? '☀️' : '🌙';
+      });
+
+      // Mobile menu toggle
+      const menuBtn = document.getElementById('menuBtn');
+      const mobileMenu = document.getElementById('mobileMenu');
+      menuBtn?.addEventListener('click', () => {
+        mobileMenu.classList.toggle('hidden');
+        menuBtn.textContent = mobileMenu.classList.contains('hidden') ? '☰' : '✕';
+      });
+
+      // Search functionality
+      const searchInput = document.getElementById('searchInput');
+      const productsGrid = document.getElementById('productsGrid');
+      const noResult = document.getElementById('noResult');
+      const clearSearch = document.getElementById('clearSearch');
+
+      if (searchInput && productsGrid && noResult) {
+        const products = Array.from(productsGrid.querySelectorAll('.product'));
+
+        const filterProducts = (query) => {
+          const value = query.trim().toLowerCase();
+          let found = 0;
+          products.forEach((product) => {
+            const name = (product.dataset.name || '').toLowerCase();
+            if (!value || name.includes(value)) {
+              product.classList.remove('hidden');
+              found++;
+            } else {
+              product.classList.add('hidden');
+            }
+          });
+          noResult.classList.toggle('hidden', found !== 0);
+        };
+
+        searchInput.addEventListener('input', (e) => filterProducts(e.target.value));
+        clearSearch?.addEventListener('click', () => {
+          searchInput.value = '';
+          filterProducts('');
+        });
+      }
+    });
+  </script>
+</body>
+</html>
