@@ -9,7 +9,7 @@
   <meta name="author" content="SahiGatget" />
   <link rel="canonical" href="https://sahigatget.shop/" />
 
-  <!-- Open Graph / Social -->
+  <!-- Social Meta -->
   <meta property="og:title" content="SahiGatget — অরিজিনাল মোবাইল ও গ্যাজেট" />
   <meta property="og:description" content="বাংলাদেশে অরিজিনাল গ্যাজেট ও মোবাইল — সেরা দামে ও ক্যাশ অন ডেলিভারি সহ।" />
   <meta property="og:image" content="https://sahigatget.shop/images/og-image.webp" />
@@ -22,32 +22,17 @@
   <link rel="icon" href="/images/favicon.ico" type="image/x-icon" />
   <link rel="apple-touch-icon" href="/images/apple-touch-icon.png" />
 
-  <!-- ✅ Google Fonts (optimized, non-blocking) -->
+  <!-- ✅ Google Font Optimized -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@400;700&display=swap" as="style" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@400;700&display=swap" media="print" onload="this.media='all'" />
-  <noscript>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@400;700&display=swap" />
-  </noscript>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@400;700&display=swap" rel="stylesheet" />
 
-  <!-- ✅ Tailwind CSS (safe async + instant fallback) -->
-  <style>
-    /* Tailwind fallback font before JS load */
-    html {
-      visibility: hidden;
-    }
-  </style>
+  <!-- ✅ TailwindCSS (safe, render-blocking free alternative) -->
+  <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp" defer></script>
   <script>
-    (function () {
-      var s = document.createElement("script");
-      s.src = "https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp";
-      s.onload = () => (document.documentElement.style.visibility = "visible");
-      document.head.appendChild(s);
-    })();
-  </script>
-  <script>
-    tailwind = { config: { darkMode: "class" } };
+    tailwind.config = {
+      darkMode: 'class',
+    };
   </script>
 
   <!-- ✅ Custom Styles -->
@@ -60,9 +45,7 @@
       font-family: 'Noto Sans Bengali', sans-serif;
       transition: var(--transition);
     }
-    [id] {
-      scroll-margin-top: 80px;
-    }
+    [id] { scroll-margin-top: 80px; }
     .hero-gradient {
       background: linear-gradient(135deg, rgba(14, 165, 233, 0.06), rgba(250, 204, 21, 0.04));
     }
@@ -71,7 +54,6 @@
     }
   </style>
 </head>
-
 <body class="bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100 font-sans scroll-smooth">
 
 <!-- Header -->
